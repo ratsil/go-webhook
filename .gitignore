@@ -1,0 +1,10 @@
+go/bin/
+go/pkg/
+go/src/github.com/
+go/src/golang.org/
+Thumbs.db
+desktop.ini
+
+*.exe
+go/src/*/preferences.ini
+*.exe~
