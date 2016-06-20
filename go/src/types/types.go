@@ -1,9 +1,20 @@
 package types
 
 type BitBucketRequest struct {
+	Actor       *Actor      `json:"actor"`
 	Push        *Push       `json:"push"`
 	Repository  *Repository `json:"repository"`
 	AsanaTaskID string      `json:"task_id"`
+}
+type Actor struct {
+	Username string `json:"username"`
+	Links    *Links `json:"links"`
+}
+type Links struct {
+	HTML *HTML `json:"html"`
+}
+type HTML struct {
+	Href string `json:"href"`
 }
 type Push struct {
 	Changes []*Change `json:"changes"`

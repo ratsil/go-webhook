@@ -1,0 +1,43 @@
+{"actor": 
+	{"uuid": "{46eccc1f-76dc-46b0-b83a-6d69404cec98}", 
+	"username": "valikoo", 
+	"type": "user", 
+	"links": 
+		{"self": {"href": "https://api.bitbucket.org/2.0/users/valikoo"}, 
+		"avatar": {"href": "https://bitbucket.org/account/valikoo/avatar/32/"}, 
+		"html": {"href": "https://bitbucket.org/valikoo/"}}, 
+	"display_name": "valikoo"}, 
+"repository": 
+	{"website": "", 
+	"full_name": "valikoo/test", 
+	"uuid": "{7f837c37-e16b-4903-a548-3439bf3e667c}", 
+	"type": "repository", 
+	"scm": "git", 
+	"name": "test", 
+	"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test"}, "avatar": {"href": "https://bitbucket.org/valikoo/test/avatar/32/"}, "html": {"href": "https://bitbucket.org/valikoo/test"}}, 
+	"owner": 
+		{"uuid": "{46eccc1f-76dc-46b0-b83a-6d69404cec98}", 
+		"username": "valikoo", 
+		"type": "user", 
+		"links": {"self": {"href": "https://api.bitbucket.org/2.0/users/valikoo"}, "avatar": {"href": "https://bitbucket.org/account/valikoo/avatar/32/"}, "html": {"href": "https://bitbucket.org/valikoo/"}}, 
+		"display_name": "valikoo"}, 
+	"is_private": true}, 
+"push": 
+	{"changes": 
+		[{"forced": false, 
+		"commits": 
+			[{"author": {"raw": "valikoo <valikooo@gmail.com>", "user": {"uuid": "{46eccc1f-76dc-46b0-b83a-6d69404cec98}", "username": "valikoo", "type": "user", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/valikoo"}, "avatar": {"href": "https://bitbucket.org/account/valikoo/avatar/32/"}, "html": {"href": "https://bitbucket.org/valikoo/"}}, "display_name": "valikoo"}}, 
+			"message": "rr\n", 
+			"date": "2016-06-19T22:54:21+00:00", 
+			"hash": "2909901227ce5c4d081753f2b77ca5fd76563603", 
+			"parents": [{"hash": "eb1f6a429a4eeda03464cdde0fb33ec4c1425a03", "type": "commit", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commit/eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}, "html": {"href": "https://bitbucket.org/valikoo/test/commits/eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}}}], 
+			"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commit/2909901227ce5c4d081753f2b77ca5fd76563603"}, "html": {"href": "https://bitbucket.org/valikoo/test/commits/2909901227ce5c4d081753f2b77ca5fd76563603"}}, 
+			"type": "commit"}], 
+		"new": {"repository": {"uuid": "{7f837c37-e16b-4903-a548-3439bf3e667c}", "full_name": "valikoo/test", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test"}, "avatar": {"href": "https://bitbucket.org/valikoo/test/avatar/32/"}, "html": {"href": "https://bitbucket.org/valikoo/test"}}, "type": "repository", "name": "test"}, "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/refs/branches/master"}, "html": {"href": "https://bitbucket.org/valikoo/test/branch/master"}, "commits": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commits/master"}}, "type": "branch", "target": {"author": {"raw": "valikoo <valikooo@gmail.com>", "user": {"uuid": "{46eccc1f-76dc-46b0-b83a-6d69404cec98}", "username": "valikoo", "type": "user", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/valikoo"}, "avatar": {"href": "https://bitbucket.org/account/valikoo/avatar/32/"}, "html": {"href": "https://bitbucket.org/valikoo/"}}, "display_name": "valikoo"}}, "message": "rr\n", "date": "2016-06-19T22:54:21+00:00", "hash": "2909901227ce5c4d081753f2b77ca5fd76563603", "parents": [{"hash": "eb1f6a429a4eeda03464cdde0fb33ec4c1425a03", "type": "commit", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commit/eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}, "html": {"href": "https://bitbucket.org/valikoo/test/commits/eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}}}], "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commit/2909901227ce5c4d081753f2b77ca5fd76563603"}, "html": {"href": "https://bitbucket.org/valikoo/test/commits/2909901227ce5c4d081753f2b77ca5fd76563603"}}, "type": "commit"}, "name": "master"}, 
+		"truncated": false, 
+		"closed": false, 
+		"links": {"diff": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/diff/2909901227ce5c4d081753f2b77ca5fd76563603..eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}, "html": {"href": "https://bitbucket.org/valikoo/test/branches/compare/2909901227ce5c4d081753f2b77ca5fd76563603..eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}, "commits": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commits?include=2909901227ce5c4d081753f2b77ca5fd76563603&exclude=eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}}, 
+		"old": {"repository": {"uuid": "{7f837c37-e16b-4903-a548-3439bf3e667c}", "full_name": "valikoo/test", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test"}, "avatar": {"href": "https://bitbucket.org/valikoo/test/avatar/32/"}, "html": {"href": "https://bitbucket.org/valikoo/test"}}, "type": "repository", "name": "test"}, "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/refs/branches/master"}, "html": {"href": "https://bitbucket.org/valikoo/test/branch/master"}, "commits": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commits/master"}}, "type": "branch", "target": {"author": {"raw": "valikoo <valikooo@gmail.com>", "user": {"uuid": "{46eccc1f-76dc-46b0-b83a-6d69404cec98}", "username": "valikoo", "type": "user", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/valikoo"}, "avatar": {"href": "https://bitbucket.org/account/valikoo/avatar/32/"}, "html": {"href": "https://bitbucket.org/valikoo/"}}, "display_name": "valikoo"}}, "message": "#106086580748879\n\npppp\n", "date": "2016-04-10T14:14:32+00:00", "hash": "eb1f6a429a4eeda03464cdde0fb33ec4c1425a03", "parents": [{"hash": "5279e189aacf2bd0d48d5e54e351932539b30a9e", "type": "commit", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commit/5279e189aacf2bd0d48d5e54e351932539b30a9e"}, "html": {"href": "https://bitbucket.org/valikoo/test/commits/5279e189aacf2bd0d48d5e54e351932539b30a9e"}}}], "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/valikoo/test/commit/eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}, "html": {"href": "https://bitbucket.org/valikoo/test/commits/eb1f6a429a4eeda03464cdde0fb33ec4c1425a03"}}, "type": "commit"}, "name": "master"}, 
+		"created": false}]}}
+
+

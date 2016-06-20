@@ -98,7 +98,7 @@ func Request(pRequest *http.Request) (err error) {
 		log.Print(regexp.MustCompile("(?:#(\\d+))").FindAllStringSubmatch(oTarget.Message, -1))
 		for _, aTaskID := range regexp.MustCompile("(?:#(\\d+))").FindAllStringSubmatch(oTarget.Message, -1) {
 			log.Print("task:" + aTaskID[1])
-			PostCommentToAsana(aTaskID[1], oTarget.Author.User.Username+" just committed with message:\n"+oTarget.Message+"\nto repository "+pBBI.Repository.Name)
+			PostCommentToAsana(aTaskID[1], oTarget.Author.User.Username+" just committed with message:\n"+oTarget.Message+"\nto repository "+pBBI.Actor.Links.HTML.Href+pBBI.Repository.Name)
 		}
 	}
 

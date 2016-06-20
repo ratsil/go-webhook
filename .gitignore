@@ -2,6 +2,7 @@ go/bin/
 go/pkg/
 go/src/github.com/
 go/src/golang.org/
+test_repo/
 Thumbs.db
 desktop.ini
 
