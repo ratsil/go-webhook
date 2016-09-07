@@ -20,7 +20,8 @@ type Push struct {
 	Changes []*Change `json:"changes"`
 }
 type Change struct {
-	New *New `json:"new"`
+	New   *New   `json:"new"`
+	Links *Links `json:"links"`
 }
 type New struct {
 	Target *Target `json:"target"`
